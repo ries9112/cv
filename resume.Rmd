@@ -95,16 +95,16 @@ build_skill_bars(skills)
 
 
 
-Open Source Contributions {#open-source}
+Edit section {#edit-section}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
+Figure out what to put this section, probably makes sense to put some links
 
+`resclapon.com` 
 
-- `shinysense`: R package to use sensor data in Shiny apps
-- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
-- `sbmR`: R package for fitting stochasitic block models
+`github.com/ries9112`
 
+`www.linkedin.com/in/esclaponriccardo/`
 
 More info {#more-info}
 --------------------------------------------------------------------------------
@@ -118,7 +118,8 @@ Disclaimer {#disclaimer}
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
 Original source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
-(this resume was created by forking **Nick Strayer's** repository)
+
+This resume was created by forking **Nick Strayer's** repository
 
 Last updated on `r Sys.Date()`.
 
@@ -154,11 +155,19 @@ position_data %>% print_section('positions')
 
 
 
-<!-- Selected Writing {data-icon=newspaper} -->
+Independent Projects {data-icon=bar-chart}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('other-experience')
+```
+
+
+<!-- Learning Certificates {data-icon=book} -->
 <!-- -------------------------------------------------------------------------------- -->
 
 <!-- ```{r} -->
-<!-- position_data %>% print_section('writings') -->
+<!-- position_data %>% print_section('certifications') -->
 <!-- ``` -->
 
-
+Look at the cv version for the full list of learning certificates

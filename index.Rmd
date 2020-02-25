@@ -111,12 +111,13 @@ build_skill_bars(skills)
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available at [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+Original source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+
+This resume was created by forking **Nick Strayer's** repository
 
 Last updated on `r Sys.Date()`.
-
 
 
 Main
@@ -139,91 +140,28 @@ print_section(position_data, 'education')
 ```
 
 
+Positions {data-icon=suitcase}
+--------------------------------------------------------------------------------
 
-<!-- Research Experience {data-icon=laptop} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-<!-- print_section(position_data, 'research_positions') -->
-<!-- ``` -->
-
+```{r}
+position_data %>% print_section('positions')
+```
 
 
-<!-- Industry Experience {data-icon=suitcase} -->
-<!-- -------------------------------------------------------------------------------- -->
+Independent Projects {data-icon=bar-chart}
+--------------------------------------------------------------------------------
 
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- print_text_block(text_blocks, 'industy_experience_aside') -->
-<!-- ``` -->
-<!-- ::: -->
-
-<!-- ```{r} -->
-<!-- print_section(position_data, 'industry_positions') -->
-<!-- ``` -->
-
-<!-- <!-- These breaks just force a new page so section doesnt get cut off --> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-
-<!-- Teaching Experience {data-icon=chalkboard-teacher} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- print_text_block(text_blocks, 'teaching_experience_aside') -->
-<!-- ``` -->
-<!-- ::: -->
-
-<!-- ```{r} -->
-<!-- print_section(position_data, 'teaching_positions') -->
-<!-- ``` -->
+```{r}
+position_data %>% print_section('other-experience')
+```
 
 
+Learning Certificates {data-icon=book}
+--------------------------------------------------------------------------------
 
-<!-- Selected Data Science Writing {data-icon=chart-line} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- print_text_block(text_blocks, 'data_science_writing_aside') -->
-<!-- ``` -->
-<!-- ::: -->
-
-<!-- ```{r} -->
-<!-- print_section(position_data, 'data_science_writings') -->
-<!-- ``` -->
-
-
-
-<!-- Selected Press (About)  {data-icon=newspaper} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-<!-- print_section(position_data, 'about_me_press') -->
-<!-- ``` -->
-
-
-<!-- <br> -->
-<!-- <br> -->
-
-
-<!-- Selected Press (By)  {data-icon=newspaper} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-<!-- print_section(position_data, 'by_me_press') -->
-<!-- ``` -->
-
-
-
-<!-- Selected Publications, Posters, and Talks {data-icon=book} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-<!-- print_section(position_data, 'academic_articles') -->
-<!-- ``` -->
+```{r}
+position_data %>% print_section('certifications')
+```
 
 
 
