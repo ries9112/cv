@@ -95,21 +95,13 @@ build_skill_bars(skills)
 
 
 
-Edit section {#edit-section}
+Certifications {#edit-section}
 --------------------------------------------------------------------------------
 
-Figure out what to put this section, probably makes sense to put some links
+I have done a fair amount of self-learning beyond my formal education:
 
-`resclapon.com` 
+resclapon.com/certifications
 
-`github.com/ries9112`
-
-`www.linkedin.com/in/esclaponriccardo/`
-
-More info {#more-info}
---------------------------------------------------------------------------------
-
-Enter more 
 
 
 Disclaimer {#disclaimer}
@@ -155,8 +147,11 @@ position_data %>% print_section('positions')
 
 
 
+
 Independent Projects {data-icon=bar-chart}
 --------------------------------------------------------------------------------
+
+
 
 ```{r}
 position_data %>% print_section('other-experience')
@@ -169,5 +164,3 @@ position_data %>% print_section('other-experience')
 <!-- ```{r} -->
 <!-- position_data %>% print_section('certifications') -->
 <!-- ``` -->
-
-Look at the cv version for the full list of learning certificates
