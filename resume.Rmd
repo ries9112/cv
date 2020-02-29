@@ -110,7 +110,7 @@ Made w/ [**pagedown**](https://github.com/rstudio/pagedown).
 
 Original source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
 
-This resume was created by forking **Nick Strayer's** repository
+This resume was created by forking **[Nick Strayer's](https://github.com/nstrayer)** repository
 
 Last updated on `r Sys.Date()`.
 
