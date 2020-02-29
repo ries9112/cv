@@ -100,8 +100,7 @@ Certifications {#edit-section}
 
 I have done a fair amount of self-learning beyond my formal education:
 
-resclapon.com/certifications
-
+[resclapon.com/certifications](https://resclapon.com/certifications)
 
 
 Disclaimer {#disclaimer}
@@ -124,10 +123,12 @@ Riccardo Esclapon {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_text_block(text_blocks, 'intro')
+print_text_block(text_blocks, 'intro_1')
 ```
-
-
+<!-- `r emo::ji('heart')` disabled because not professional--> love
+```{r}
+print_text_block(text_blocks, 'intro_2')
+```
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
