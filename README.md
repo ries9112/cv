@@ -2,6 +2,11 @@
 
 Stumbled across Nick's repository while browsing GitHub and figured if I'm applying for the RStudio internship I should make sure my resume is an .Rmd project. Many thanks to him for the awesome template.
 
+Available here:
+https://ricky-cv.netlify.com/
+
+Shorter format here:
+https://ricky-cv.netlify.com/resume
 
 ### Usage:
 
