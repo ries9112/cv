@@ -40,7 +40,7 @@ sheet_is_publicly_readable <- TRUE
 PDF_EXPORT <- FALSE
 
 
-CV_PDF_LOC <- "https://github.com/ries9112/cv/blob/master/esclapon_cv.pdf"
+CV_PDF_LOC <- "https://github.com/ries9112/cv/raw/master/esclapon_cv.pdf"
 CV_HTML_LOC <- "https://ricky-cv.netlify.com/"
 
 
