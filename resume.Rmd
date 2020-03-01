@@ -125,7 +125,7 @@ Riccardo Esclapon {#title}
 ```{r}
 print_text_block(text_blocks, 'intro_1')
 ```
-<!-- `r emo::ji('heart')` disabled because not professional--> love
+<!-- `r emo::ji('heart')` disabled because not professional--> loves
 ```{r}
 print_text_block(text_blocks, 'intro_2')
 ```
