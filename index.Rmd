@@ -7,8 +7,10 @@ output:
     css: ['css/styles.css', 'resume']
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
-knit: pagedown::chrome_print
 ---
+
+<!-- TO RENDER PDF, ADD THIS TO BOTTOM OF YAML:  -->
+<!-- knit: pagedown::chrome_print -->
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
