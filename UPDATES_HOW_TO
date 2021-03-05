@@ -1,0 +1,9 @@
+For future updates:
+
+1. Update Google Sheet: https://docs.google.com/spreadsheets/d/1lKNWy2etJRj_4Q5yPmWiKk8LO7wElhBliZ-90j2ABX4/edit#gid=1381329386
+
+2. Knit to html
+
+3. Add `knit: pagedown::chrome_print` to bottom of YAML headings and run again for PDF version
+
+4. Commit updated version
