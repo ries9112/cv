@@ -59,8 +59,6 @@ source('parsing_functions.R')
 source('gather_data.R')
 ```
 
-
-
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
 if(PDF_EXPORT){
@@ -73,12 +71,9 @@ if(PDF_EXPORT){
 }
 ```
 
+# Aside
 
-Aside
-================================================================================
-
-
-![logo](logo.png){width=100%}
+![logo](logo.png){width="100%"}
 
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
@@ -89,81 +84,60 @@ if(PDF_EXPORT){
 }
 ```
 
-Contact {#contact}
---------------------------------------------------------------------------------
+## Contact {#contact}
 
 ```{r}
 contact_info %>% 
   glue_data("- <i class='fa fa-{icon}'></i> {contact}")
 ```
 
-
-
-Language Skills {#skills}
---------------------------------------------------------------------------------
+## Language Skills {#skills}
 
 ```{r}
 build_skill_bars(skills)
 ```
 
+## Disclaimer {#disclaimer}
 
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
+Made w/ [**pagedown**](https://github.com/rstudio/pagedown).
 
 Original source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
 
-This resume was created by forking **[Nick Strayer's](https://github.com/nstrayer)** repository
+This resume was created by forking [**Nick Strayer's**](https://github.com/nstrayer) repository
 
 Last updated on `r Sys.Date()`.
 
+# Main
 
-Main
-================================================================================
-
-Riccardo Esclapon {#title}
---------------------------------------------------------------------------------
+## Riccardo Esclapon {#title}
 
 ```{r}
 print_text_block(text_blocks, 'intro_full')
 ```
 
-
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
+## Education {data-icon="graduation-cap" data-concise="true"}
 
 ```{r}
 print_section(position_data, 'education')
 ```
 
-
-Positions {data-icon=suitcase}
---------------------------------------------------------------------------------
+## Positions {data-icon="suitcase"}
 
 ```{r}
 position_data %>% print_section('positions')
 ```
 
-
-Independent Projects {data-icon=bar-chart}
---------------------------------------------------------------------------------
+## Independent Projects {data-icon="bar-chart"}
 
 ```{r}
 position_data %>% print_section('other-experience')
 ```
 
-
-Learning Certificates {data-icon=book}
---------------------------------------------------------------------------------
+## Learning Certificates {data-icon="book"}
 
 ```{r}
 position_data %>% print_section('certifications')
 ```
-
-
 
 ```{r}
 if(PDF_EXPORT){
@@ -182,5 +156,3 @@ Links {data-icon=link}
   })
 }
 ```
-
-
